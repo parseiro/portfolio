@@ -1,0 +1,37 @@
+{
+  "name": " ",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "",
+  "keywords": "",
+  "license": "",
+  "author": "",
+  "browserslist": [
+    "defaults"
+  ],
+  "scripts": {
+    "build": "tsc && vite build --base=./",
+    "dev": "npx vite",
+    "preview": "npx vite preview",
+    "start": "npm run build && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.7",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.18",
+    "postcss-cli": "^10.0.0",
+    "postcss-import": "^15.0.0",
+    "postcss-nesting": "^10.2.0",
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "tailwindcss": "^3.2.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0"
+  },
+  "dependencies": {
+    "browserslist": "^4.21.4",
+    "flowbite": "^1.5.3",
+    "ts-node": "^10.9.1"
+  }
+}
