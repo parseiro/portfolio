@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -59,4 +61,209 @@
 
 .button.button-danger:disabled {
   @apply bg-red-200 !important;
+}
+
+/*html {
+  max-width: 1160px;
+}*/
+
+/*.col-4 {
+  width: calc(100vw * 4/12);
+}
+
+.col-5 {
+  width: calc(100vw * 5/12);
+}
+
+.col-6 {
+  width: calc(100vw * 6/12);
+}
+
+.col-7 {
+  width: calc(100vw * 7/12);
+}
+
+.max-width-3col {
+  max-width: 658px;
+}*/
+
+/*.logotipo {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+}*/
+
+/*.mb-80 {
+  margin-bottom: 80px;
+}*/
+
+/*.border {
+  border: 1px solid black;
+}*/
+
+/*.botoes-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.desenvolvedor {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 80px;
+}
+
+.localizacao {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}*/
+
+.font-display {
+  font-family: "Fira Sans", sans-serif;
+  /*font-size: 18px;*/
+  /*line-height: 60px;*/
+}
+
+/*.btn {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.px-10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.mx-10 {
+  margin-left: 10px;
+  margin-right: 10px;
+}*/
+
+/*.texticulo {
+  font-family: "Fira Sans", sans-serif;
+  border: 1px solid black;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+}*/
+
+/*.font-bold {*/
+/*  font-weight: bold;*/
+/*}*/
+
+/*.float-right {*/
+/*  float: right;*/
+/*}*/
+
+/*.when {*/
+/*  font-family: "Fira Sans", sans-serif;*/
+/*  !*font-size: 24px;*!*/
+/*  !*line-height: 32px;*!*/
+/*  !*padding-right: 40px;*!*/
+/*  !*padding-top: 20px;*!*/
+/*}*/
+
+/*.what {
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}*/
+
+.card-title {
+  @apply font-display color-g10 mb-5 text-2xl font-bold;
+}
+
+.card-text {
+  @apply font-display color-g10 text-2xl leading-8;
+  /*font-family: "Fira Sans", sans-serif;*/
+  /*font-size: 24px;*/
+  /*line-height: 32px;*/
+}
+
+.job-title {
+  @apply font-display color-g10 mb-2.5 text-2xl font-bold;
+  /*font-family: "Fira Sans", sans-serif;*/
+  /*font-weight: bold;*/
+  /*font-size: 24px;*/
+  /*line-height: 20px;*/
+  /*margin-bottom: 10px;*/
+}
+
+.caixinhas {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  max-width: 233px;
+}
+
+.caixinha {
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  color: #404040;
+  padding: 5px 10px;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  word-wrap: unset;
+}
+
+.border-radius-5 {
+  border-radius: 5px;
+}
+
+.color-g1 {
+  color: #f7f7f7;
+}
+
+.color-g3 {
+  color: #dedede;
+}
+
+.bg-g3 {
+  background-color: #dedede;
+}
+
+.border-g5 {
+  border: 1px solid #b2b2b2;
+}
+
+.color-g9 {
+  color: #404040;
+}
+
+.color-g10 {
+  color: #2e2e2e;
+}
+
+.color-g12 {
+  color: #0e0e0e;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.pl-140 {
+  padding-left: 140px;
+}
+
+.primeira-coluna {
+  @apply col-span-4;
+}
+
+.segunda-coluna {
+  @apply col-span-3;
+}
+
+.caixa-experiencia {
+  @apply bg-g3 border-g5 grid grid-cols-7 gap-x-5 rounded p-5 col-span-7;
+}
+
+.coluna-quando {
+  @apply font-display text-align-right col-span-5 col-span-5 pr-10 pt-5 text-2xl leading-6;
 }
