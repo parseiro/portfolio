@@ -175,18 +175,18 @@
 }*/
 
 .card-title {
-  @apply font-display color-g10 mb-5 text-2xl font-bold;
+  @apply font-display text-g10 mb-5 text-2xl font-bold;
 }
 
 .card-text {
-  @apply font-display color-g10 text-2xl leading-8;
+  @apply font-display text-g10 text-2xl leading-8;
   /*font-family: "Fira Sans", sans-serif;*/
   /*font-size: 24px;*/
   /*line-height: 32px;*/
 }
 
 .job-title {
-  @apply font-display color-g10 mb-2.5 text-2xl font-bold;
+  @apply font-display text-g10 mb-2.5 text-2xl font-bold;
   /*font-family: "Fira Sans", sans-serif;*/
   /*font-weight: bold;*/
   /*font-size: 24px;*/
@@ -216,37 +216,9 @@
   border-radius: 5px;
 }
 
-.color-g1 {
-  color: #f7f7f7;
-}
-
-.color-g3 {
-  color: #dedede;
-}
-
-.bg-g3 {
-  background-color: #dedede;
-}
-
-.border-g5 {
-  border: 1px solid #b2b2b2;
-}
-
-.color-g9 {
-  color: #404040;
-}
-
-.color-g10 {
-  color: #2e2e2e;
-}
-
-.color-g12 {
-  color: #0e0e0e;
-}
-
-.text-align-right {
+/*.text-align-right {
   text-align: right;
-}
+}*/
 
 .pl-140 {
   padding-left: 140px;
@@ -261,9 +233,13 @@
 }
 
 .caixa-experiencia {
-  @apply bg-g3 border-g5 grid grid-cols-7 gap-x-5 rounded p-5 col-span-7;
+  @apply bg-g3 border-g5 col-span-7 grid grid-cols-7 gap-x-5 rounded p-5;
 }
 
 .coluna-quando {
-  @apply font-display text-align-right col-span-5 col-span-5 pr-10 pt-5 text-2xl leading-6;
+  @apply font-display text-right col-span-5 col-span-5 pr-10 pt-5 text-2xl leading-6;
+}
+
+.navbar-item {
+  @apply sm:text-g12 block rounded bg-blue-700 py-2 pr-4 pl-3 text-lg leading-[60px] text-white dark:text-white sm:bg-transparent sm:p-0 ;
 }
