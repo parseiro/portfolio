@@ -1,11 +1,17 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from "vite";
+// import postcssNesting from 'postcss-nesting';
 
 export default defineConfig({
-  /*css: {
-    postcss: {
-      plugins: [
-        postcssNesting
-      ],
-    }
-  }*/
+  // css: {
+  //   preprocessorOptions: {
+  //     scss: {
+  //       // additionalData: `@import "../scss/style.scss";`,
+  //     },
+  //   },
+  //   postcss: {
+  //     plugins: [
+  //       // postcssNesting
+  //     ],
+  //   },
+  // },
 });
