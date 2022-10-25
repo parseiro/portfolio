@@ -175,11 +175,11 @@
 }*/
 
 .card-title {
-  @apply font-display text-g10 mb-5 text-2xl font-bold;
+  @apply font-display text-g10 mb-5 text-2xl font-bold block;
 }
 
 .card-text {
-  @apply font-display text-g10 text-2xl leading-8;
+  @apply font-display text-g10 text-base leading-8;
   /*font-family: "Fira Sans", sans-serif;*/
   /*font-size: 24px;*/
   /*line-height: 32px;*/
