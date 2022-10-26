@@ -63,9 +63,9 @@
   @apply bg-red-200 #{!important};
 }
 
-/*html {
-  max-width: 1160px;
-}*/
+html {
+  scroll-behavior: smooth;
+}
 
 /*.col-4 {
   width: calc(100vw * 4/12);
@@ -242,8 +242,4 @@
 
 .navbar-item {
   @apply block rounded bg-blue-700 py-2 pr-4 pl-3 text-lg leading-[60px] text-white dark:text-white sm:bg-transparent sm:p-0 sm:text-g12;
-}
-
-#app {
-  @apply container mx-auto flex max-w-5xl flex-col justify-between scroll-smooth border border-solid border-gray-50;
 }
